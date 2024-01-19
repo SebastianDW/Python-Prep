@@ -63,16 +63,3 @@ class Herramientas:
                     print(self.factorial(i))
         elif opcion == 2:
             print(self.Valor_modal(self.lista))
-
-
-lista_prueba= [1,1,1,2,3,4,5,6,7,8,9,10]
-herramientas = Herramientas(lista_prueba)
-#se puede poner un input para preguntar que accion debería usar
-# 1 identificar primo 
-# 2 valor modal
-# 3 convertir tremperatura
-# 4 factorial
-herramientas.usar_Operaciones(1)
-herramientas.usar_Operaciones(2)
-herramientas.usar_Operaciones(3,"celsius","farenheit")
-herramientas.usar_Operaciones(4)
